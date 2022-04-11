@@ -10,6 +10,7 @@ class WeightViewModel: ViewModel() {
 
     val wei: LiveData<Int>
         get() = _wei
+
     fun setWei(value: Int) {
         _wei.value = value
     }
